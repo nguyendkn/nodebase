@@ -4,7 +4,7 @@
       "typescript": "javascript",
       "typescriptreact": "javascript"
     },
-    "classAttributes": ["class", "className", "ngClass"]
+    "classAttributes": ["class", "className"]
   },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -18,6 +18,9 @@
     "node_modules": true,
     "package-lock.json": true,
     "yarn.lock": true,
-    "pnpm-lock.yaml": true
+    "pnpm-lock.yaml": true,
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
   }
 }
